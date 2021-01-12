@@ -1,0 +1,1134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{2cb5b885-c3cd-e2a6-7377-db054877ad63}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_1_2;UNITY_2020_1;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;ODIN_INSPECTOR;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Client Moba\Scripts\Game\Components\LineTriggerAgent.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Vector2\Vector2Variable.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\UI\FloatToText.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UINickName.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\String\StringVariable.cs" />
+     <Compile Include="Assets\LookAtt.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Base\ScriptableObjectList.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\UI\IntToText.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Int\IntEvent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\UI\Casern\UICasernMobIconsSystem.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\DamageComponent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\EventBus.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Extensions\ArrayExtension.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Test\ContextManager.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\EcsManager.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Team\TeamSyncSystem.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Test Implementation Mob\MobAttackState.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Extensions\QuaternionExtension.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Respawn\RespawnComponent.cs" />
+     <Compile Include="Assets\SimpleFogOfWar\Renderers\SeeThroughFogRenderer.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\TestDamage.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\NPCTowerNetController.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\NPCHealth.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Custom Serialize\Base\DicrionarySerializer.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\TestFind.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UIInterceptorClick.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Float\FloatEvent.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\NetMessages\TeamAddExperienceSystem.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\GameManager.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\Test Entitas\GameController.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Custom Serialize\MobsSerializer.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\EcsMobaGameStartup.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Mob\MobDataReference.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\MonoHooks\StartHook.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\Test add component outside\UnityMessageReporter.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UIResearchTree.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Test Implementation Mob\MobListComponent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Custom Serialize\Base\Format.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Void\VoidListener.cs" />
+     <Compile Include="Assets\SimpleFogOfWar\Internal\ReadonlyInPlaymodeAttribute.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Bool\BoolListener.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\EventManager\Game Base\GameBase.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\TestDamageSystem.cs" />
+     <Compile Include="Assets\SimpleFogOfWar\Test\FOWVisibilityTester.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Damager.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Test\OpenNewUnit.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\TestBechaviour.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\Test.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\NPCMobNetwork.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\LobbyManager.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Game\SpawnTriggers.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Mob\Mob.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Bool\BoolInvertListener.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\Test Entitas\IComponent.cs" />
+     <Compile Include="Assets\SimpleFogOfWar\Renderers\FOWRenderer.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\Rotation\ExampleRotateTurret.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Test Implementation Mob\CaserneComponent.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Base\ScriptableObjectVariable.cs" />
+     <Compile Include="Assets\Scripts\RTS_Camera\Demo\TargetSelector.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\Timer\Timer.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Configs\Team\Team.cs" />
+     <Compile Include="Assets\Others\Test\SendMessage\ListenerMessage.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Mob\UnitTeamInitSystem.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Float\FloatListener.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Configs\Action.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\Test Entitas\MovementPlayerSystem.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Mob\MobData.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\Test Entitas\MoveComponent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Custom Serialize\Base\XmlDictionaryFormat.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Int\IntListener.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\EventManager\Game Base\ChangeMobSystem.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\NetMessages\StaticUnitySystem.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\Test add component outside\MessageComponent.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Extensions\Vector3Extension.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\String\StringEvent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\WaitStartGame.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\PlayerSession.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\SuperHero\SuperHeroUpExperience.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\EventManager\Game Base\ChangeMobEvent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Custom Serialize\Base\BinaryFormat.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UIMobIconInCaserne.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\Casern\Components\CasernComponent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UICard.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Base\GameEvent.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\AxisMouse.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Float\FloatUnityEvent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Custom Serialize\Base\MasterSerialize.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Int\IntSlider.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\VictoryChecker_Temp.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Lobby\SetSpeciesTask.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\Test1Startup.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\NPCArrowDamager.cs" />
+     <Compile Include="Assets\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\Photon\PlayerNetwork.cs" />
+     <Compile Include="Assets\Others\My game\Scripts\Controller.cs" />
+     <Compile Include="Assets\Addons\FogOfWar\AutoClearRT.cs" />
+     <Compile Include="Assets\Others\My game\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Game\SetCardsForCasernesTask.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\NPCDamager.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Vector2\Vector2Listener.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\Timer\TimerUnityEvent.cs" />
+     <Compile Include="Assets\Client Moba\Scenes\tester.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\Casern\Systems\CasernInitSystem.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\GameObject\GameObjectUnityEvent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\SuperHero\SuperHeroComponent.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Base\GameEventListener.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\Rotation\ExampleRotateTurret3D.cs" />
+     <Compile Include="Assets\SimpleFogOfWar\FogOfWarInfluence.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Bool\BoolUnityEvent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UIRoomManager.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Game\MovePlayerCardTask.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\MonoHooks\AwakeHookUnityEvent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\NPCMobController.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Save System\SaveData.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\EarnerMoneyOnDie.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Game\UIGamePlayerDeck.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\GameObject\GameObjectListener.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\Casern\Components\CasernReplaceMobEvent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\NetMessages\OnDieNetMessage.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\NetMessages\SetPositionSystem.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Game\Components\LineTrigger.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UIPanelResearchUnit.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\Test Entitas\PlayerComponent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\TeamsComponent.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Vector2\Vector2Event.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Timer\VisualTextTimer.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\NPCVisibleRangeFirstTarget.cs" />
+     <Compile Include="Assets\Scripts\Other Scripots\UpdateArmy.cs" />
+     <Compile Include="Assets\Scripts\Photon\LobbyManager.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\Test Entitas\Context.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\MouseButtonDown.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\Test add component outside\MessageSystem.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\Test Entitas\TestCollision.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Team\TeamUpLevelSystem.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Test Implementation Mob\CaserneListComponent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Test Implementation Mob\MobComponent.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\String\StringUnityEvent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\NPC\MobComponent.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Custom Serialize\SpellsSerializer.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\SuperHero\SuperHeroClient.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Game\InitSpawnTriggersTask.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Change_Mobs.cs" />
+     <Compile Include="Assets\Scripts\RTS_Camera\Scripts\RTS_Camera.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Spawn\SpawnSystem.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\WinChecker.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Respawn\RespawnBehaviour.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Bool\BoolEvent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Configs\Team\TeamData.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Base\old ScriptableObjectVariable.cs" />
+     <Compile Include="Assets\Scripts\Other Scripots\Arrow.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+     <Compile Include="Assets\Scripts\Photon\GameManager.cs" />
+     <Compile Include="Assets\SimpleFogOfWar\FogOfWarSystem.cs" />
+     <Compile Include="Assets\Scripts\Other Scripots\SpawnController.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Test\TestStringHash.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\GameObject\GameObjectList.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\NPCMobVisibleRangeReporter.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\INPCVisibleRangeFilter.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Bool\BoolVariable.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Configs\Team\TeamDataList.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\EventManager\Game Base\HealthGameBase.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\SuperHero\SuperHeroControll.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Vector2\Vector2UnityEvent.cs" />
+     <Compile Include="Assets\Scripts\Other Scripots\Health.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\UI\Casern\UIMobIconsPanelComponent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\Test add component outside\EcsStartup.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\TowerDamager.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\InputKeyToggle.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Test Implementation Mob\MobStateSystem.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\Test Entitas\IInitializeSystem.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\GameObject\GameObjectEvent.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UnityServices.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Void\VoidEvent.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Int\IntVariable.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\NPC\MobInitSystem.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\NewBehaviourScript1.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UIRoomInsideManager.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\EventManager\MonoEventManager.cs" />
+     <Compile Include="Assets\Scripts\RTS_Camera\Demo\DemoScene.cs" />
+     <Compile Include="Assets\Others\My game\Scripts\LobbyManager.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Void\IVoidEventListener.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\Casern\ICasernController.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\HeroOnDieNotify.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UITimerSlider.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\MonoHooks\AwakeHook.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Skills\ExperienceComponent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UILobbyDeckSystem.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Test DataComponents\MineTeamComponent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\NTK Extension\GameObjectItem.cs" />
+     <Compile Include="Assets\Scripts\Other Scripots\others.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\ControllManager.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\NPCVisibleRange.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Game\SetPlayerDeckTask.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Extensions\MathfExtension.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\ApplyDamageComponent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\UI\Casern\UIMobIconsPanelChange.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Int\IntKristall.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\EcsNPCDamager.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\NewBehaviourScript3.cs" />
+     <Compile Include="Assets\Scripts\Other Scripots\SpawnerCrips.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\Test Entitas\MonoSystem.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\GameObject\GameObjectVariable.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Unit\UnitAddExperianceForTeam.cs" />
+     <Compile Include="Assets\SimpleFogOfWar\Renderers\ProjectorFogRenderer.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\HealthComponent.cs" />
+     <Compile Include="Assets\TestBot\AnimatorStringToHash.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\GameObjectEntity.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Mob\UnitFogOfWarSystem.cs" />
+     <Compile Include="Assets\Scripts\Other Scripots\Crip.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\NPC\IMobController.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\NewBehaviourScript2.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Timer\StartGameTimer.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Extensions\GameObjectExtension.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UIClickAction.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Timer\Timer.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\ScriptableObjects\CardConfig.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\SuperHero\SuperHeroServer.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Lobby\SaveDeckTask.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\SuperHero\NPCSuperHeroNetwork.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\Casern\Systems\CasernReplaceMobSystem.cs" />
+     <Compile Include="Assets\Others\Test\SendMessage\SenderMessage.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\EarnerMana.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Game\SceneData.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Visible Range\NPCPursuerOfTarget.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Health\Damage.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Test Implementation Mob\CaserneSpawnMobSystem.cs" />
+     <Compile Include="Assets\Music\RightClip.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Test DataComponents\MobsForFillsCasernes.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Extensions\Vector2Extension.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Mob\MobDamager.cs" />
+     <Compile Include="Assets\TestBot\Sender.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UITeamExperience.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Spawn\SpawnListComponent.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\Timer\TimerIEnumerator.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\Room Manager\UIRoomItem.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\InputKeyUp.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\InputKeyDown.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\String\StringListener.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Float\FloatVariable.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\Test Entitas\GaneratorObjects.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Skills\LevelComponent.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\Timer\TimerGameEvent.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\VariableToUIText.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Configs\GameRuntimeData.cs" />
+     <Compile Include="Assets\SimpleFogOfWar\Test\SaveTest.cs" />
+     <Compile Include="Assets\Addons\FogOfWar\FogOfWarPlayer.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\Deka.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UILobbyDeck.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Game\InitCaserneArrayTask.cs" />
+     <Compile Include="Assets\Scripts\PlayerCoinsCollector.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Configs\InitLocalMobsList.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\ChangeMobSystem.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\SystemLager.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Base\IGameEventListener.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Hooks\HookOnPhotonInstantiate.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Base\old VariableUnity.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Herop\Helper.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Int\IntWidget.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Game\CaserneArray.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Spell\SpellManager.cs" />
+     <Compile Include="Assets\Scripts\Other Scripots\OpenRightMenu.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Components\Rotation\ExampleRotateTurret2D.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\CameraLow.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UIRoomList.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Spell\Spell.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Int\IntVariable.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\UI\UIPanelUpgradeUnit.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Ecs\IEcsInitEntity.cs" />
+     <Compile Include="Assets\TNKAssetsCollection\TNKAsset\Int\IntUnityEvent.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\BossLine.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Gameplay\Mob\Ragdoll_Unit.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Hero\DataBase_Hero.cs" />
+     <Compile Include="Assets\Client Moba\Scripts\Hero\Hero_DataItem.cs" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Scripts\RTS_Camera\Demo\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Scripts\RTS_Camera\Demo\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Addons\Photon\PhotonUnityNetworking\changelog.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Scripts\RTS_Camera\Demo\Projectors\Guidelines.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\TNKAssetsCollection\info.txt" />
+     <None Include="Assets\Models\stylezed low poly props\README.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\MOBA and Tower Defense\info.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\UI ELEMENT\Shaders\UIMaskedBlur.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\SimpleFogOfWar\Resources\FOWSeeThroughShader.shader" />
+     <None Include="Assets\UI ELEMENT\Shaders\UIOverlay.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+     <None Include="Assets\SimpleFogOfWar\Resources\FOWViewStampShader.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Others\Standard Assets\DefaultResources\Normal-Diffuse.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Addons\Plugins\changes-library.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\UI ELEMENT\Shaders\UITribalEffect.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Addons\Photon\PhotonUnityNetworking\readme.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\UI ELEMENT\Prefabs\Readme.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\UI ELEMENT\Prefabs\Changelog.txt" />
+     <None Include="Assets\Addons\Photon\PhotonLibs\changes-library.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\SimpleFogOfWar\Resources\FOWProjectorShader.shader" />
+     <None Include="Assets\Addons\Photon\PhotonLibs\Photon3Unity3D.xml" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Addons\FogOfWar\FogOfWarMask.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Addons\Photon\PhotonUnityNetworking\link.xml" />
+     <None Include="Assets\TCG_Card_Design\ReadMe.txt" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Addons\FogOfWar\ReplaceGreen.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Others\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>H:/Moba/Moba/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>H:/Moba/Moba/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>H:/Moba/Moba/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>H:/Moba/Moba/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>H:/Moba/Moba/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>H:/Moba/Moba/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>H:/Moba/Moba/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>H:/Moba/Moba/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>H:/Moba/Moba/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>H:/Moba/Moba/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>H:/Moba/Moba/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AndroidJNIModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DSPGraphModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputLegacyModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubsystemsModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsNativeModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VirtualTexturingModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>H:/Moba/Moba/Assets/Addons/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>H:/Moba/Moba/Assets/Addons/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="Sirenix.OdinInspector.Attributes">
+ <HintPath>H:/Moba/Moba/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+ </Reference>
+ <Reference Include="Sirenix.OdinInspector.Editor">
+ <HintPath>H:/Moba/Moba/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Sirenix.Serialization.Config">
+ <HintPath>H:/Moba/Moba/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+ </Reference>
+ <Reference Include="Sirenix.Serialization">
+ <HintPath>H:/Moba/Moba/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="Sirenix.Utilities">
+ <HintPath>H:/Moba/Moba/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+ </Reference>
+ <Reference Include="Sirenix.Utilities.Editor">
+ <HintPath>H:/Moba/Moba/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CSharp">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Annotations">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http.Rtc">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.ILGeneration">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.Lightweight">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Duplex">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Http">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.NetTcp">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Primitives">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Security">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>F:/Unity/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
+      <Project>{314e0b74-a8ca-f0e3-672d-506e131a768f}</Project>
+      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
+      <Project>{eb0d3146-4129-6c2f-d378-63d190947b67}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{74e391e5-133d-ce88-3023-bc967ef697a6}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
+      <Project>{b2429eff-2703-a533-6a22-86c6160e1c12}</Project>
+      <Name>NaughtyAttributes.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Leopotam.Ecs.csproj">
+      <Project>{0cd72592-dc30-4872-9c75-01b0527b4c9a}</Project>
+      <Name>Leopotam.Ecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Core.csproj">
+      <Project>{2a6253c0-3c24-4791-a00e-8a3ee951604a}</Project>
+      <Name>NaughtyAttributes.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Leopotam.Ecs.UnityIntegration.csproj">
+      <Project>{09d0dbd0-8806-50f1-1135-f584701ca097}</Project>
+      <Name>Leopotam.Ecs.UnityIntegration</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Test.csproj">
+      <Project>{201cd99e-e807-1388-f2c8-bf9330571034}</Project>
+      <Name>NaughtyAttributes.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="Leopotam.Ecs.UnityIntegration.Editor.csproj">
+      <Project>{231b87f1-81a3-1a7f-8908-7e62a6a67ee8}</Project>
+      <Name>Leopotam.Ecs.UnityIntegration.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonWebSocket.csproj">
+      <Project>{5e845742-9224-42c9-799d-68b241d377d9}</Project>
+      <Name>PhotonWebSocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{815936ff-89d9-b032-a7ce-82020524469a}</Project>
+      <Name>PhotonRealtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.csproj">
+      <Project>{13cb3260-2f06-8b87-3c22-4cc436f90065}</Project>
+      <Name>PhotonUnityNetworking</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
+      <Project>{e5d6c6aa-23fe-d204-7417-90db147bc6d2}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{d6a479d5-b1f4-70e1-4113-21199f47259e}</Project>
+      <Name>PhotonChat</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
+      <Project>{16de3f13-fda6-f21a-eef3-eeb5a8e91bbc}</Project>
+      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
+      <Project>{151c5507-2ab8-7e44-bcda-1e649f0da56a}</Project>
+      <Name>PhotonUnityNetworking.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

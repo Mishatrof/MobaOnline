@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Moba" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin2" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20b93927-1501-4c26-8868-c25383675247" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Lobby/SetSpeciesTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/NetMessages/TeamAddExperienceSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Gameplay/Mob/MobData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RTS_Camera/Demo/TargetSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Lobby/SaveDeckTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/UI/UICard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Hero/DataBase_Hero.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Hero/Hero_DataItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/UI/UILobbyDeckSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/UI/Deka.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/EventManager/Game Base/GameBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Gameplay/Visible Range/NPCDamager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/WaitStartGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Int/IntVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/LobbyManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Ecs/TestDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Ecs/GameObjectEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Gameplay/Mob/Ragdoll_Unit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Configs/Team/TeamDataList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Gameplay/Visible Range/NPCHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Game/UIGamePlayerDeck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Configs/Team/TeamData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/ScenesWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Ecs/DamageComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Ecs/EcsMobaGameStartup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Configs/Team/Team.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Game/MovePlayerCardTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Ecs/Test1Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Ecs/EcsManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Ecs/IEcsInitEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Addons/Photon/PhotonUnityNetworking/Code/PunClasses.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TNKAssetsCollection/TNKAsset/MonoHooks/AwakeHookUnityEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Int/IntKristall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Client Moba/Scripts/Gameplay/Mob/MobDataReference.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Others/My game/Scripts/Controller.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/Int/IntVariable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/UI/UILobbyDeckSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/Int/IntKristall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/ScenesWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/Gameplay/Visible Range/NPCDamager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/Gameplay/Mob/MobData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/Game/MovePlayerCardTask.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/WaitStartGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/Hero/DataBase_Hero.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/Hero/Hero_DataItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/Gameplay/Mob/Ragdoll_Unit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/EventManager/Game Base/GameBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/Gameplay/Visible Range/NPCHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/Lobby/SetSpeciesTask.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/Game/UIGamePlayerDeck.cs" />
+        <option value="$PROJECT_DIR$/Assets/Client Moba/Scripts/UI/UICard.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gXTUQ8GN65qI2BVhobpkjfK62w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20b93927-1501-4c26-8868-c25383675247" name="Default Changelist" comment="" />
+      <created>1598259953335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598259953335</updated>
+      <workItem from="1598259979483" duration="6303000" />
+      <workItem from="1598294875960" duration="3725000" />
+      <workItem from="1598372367486" duration="13856000" />
+      <workItem from="1598438098492" duration="6716000" />
+      <workItem from="1598475249715" duration="3091000" />
+      <workItem from="1598524202558" duration="3515000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="670" y="198" key="RiderGenerateDialog" timestamp="1598525578851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="670" y="198" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598525578851" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1598379658132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598379658132" />
+    <state x="1150" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1598477046921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1150" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598477046921" />
+  </component>
+</project>

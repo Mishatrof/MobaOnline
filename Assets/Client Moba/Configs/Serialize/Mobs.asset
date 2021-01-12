@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d1fd81b1fddaa428ad164b81cfc069, type: 3}
+  m_Name: Mobs
+  m_EditorClassIdentifier: 
+  m_PathFile: mobs
+  m_Format: 0
+  m_SerializableObjects:
+  - uniqueID: "\u041C\u0435\u0447\u043D\u0438\u043A_\u0410"
+    damager: {fileID: -1341914697127593727, guid: b74c119ff01db1c41baa41f5982267b5,
+      type: 3}
+    healthComponent: {fileID: -911132610777075180, guid: b74c119ff01db1c41baa41f5982267b5,
+      type: 3}
+  - uniqueID: "\u041C\u0435\u0447\u043D\u0438\u043A_\u0411"
+    damager: {fileID: -1341914697127593727, guid: 0928b51bda729b4479b6b4a9d2d27b75,
+      type: 3}
+    healthComponent: {fileID: -911132610777075180, guid: 0928b51bda729b4479b6b4a9d2d27b75,
+      type: 3}

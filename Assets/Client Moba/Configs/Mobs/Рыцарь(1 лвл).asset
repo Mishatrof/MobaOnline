@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7a5f832606f6043a36e991fe0b0a19, type: 3}
+  m_Name: "\u0420\u044B\u0446\u0430\u0440\u044C(1 \u043B\u0432\u043B)"
+  m_EditorClassIdentifier: 
+  Cout: 5
+  m_Sprite: {fileID: 21300000, guid: d082c26c289897e468c685b8232ea65e, type: 3}
+  m_SpriteLost: {fileID: 21300000, guid: d082c26c289897e468c685b8232ea65e, type: 3}
+  Level:
+  - m_Health: 18
+    m_Damage: 6
+    m_Sprite: {fileID: 21300000, guid: a1a61b6389e190847bfcbd10ef07010d, type: 3}
+  Cost: 4
+  Radius: 15
+  SpeedAttack: 2
